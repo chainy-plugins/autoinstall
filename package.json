@@ -1,0 +1,64 @@
+{
+  "title": "Autoinstall plugin for [ChainyJS](http://chainyjs.org)",
+  "name": "chainy-plugin-autoinstall",
+  "version": "1.0.0",
+  "description": "Chainy plugin that automatically installs missing plugins on node versions 0.11 and above",
+  "homepage": "https://github.com/chainy-plugins/autoinstall",
+  "keywords": [
+    "chainy",
+    "chainy-addon",
+    "chainy-plugin",
+    "chainy-custom"
+  ],
+  "license": {
+    "type": "MIT"
+  },
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "david": true,
+    "daviddev": true,
+    "gittip": "bevry",
+    "flattr": "344188/balupton-on-Flattr",
+    "paypal": "QB8GQPZAH84N6",
+    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a",
+    "wishlist": "http://amzn.com/w/2F8TXKSNAFG4V"
+  },
+  "author": "2014+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/chainy-plugins/autoinstall/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/chainy-plugins/autoinstall.git"
+  },
+  "engines": {
+    "node": ">=0.4"
+  },
+  "peerDependencies": {
+    "chainy-core": "1",
+    "chainy-plugin-set": "*"
+  },
+  "devDependencies": {
+    "chainy-core": "1",
+    "chainy-plugin-set": "*",
+    "chai": "~1.9.1",
+    "joe": "~1.5.0",
+    "joe-reporter-console": "~1.2.1",
+    "projectz": "~0.3.14",
+    "rimraf": "^2.2.8",
+    "semver": "^2.3.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/autoinstall-test.js"
+  },
+  "main": "./lib/autoinstall.js",
+  "browsers": true
+}
